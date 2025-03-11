@@ -15,8 +15,8 @@ function Project() {
                 </div>
 
                 <div className="project">
-                        <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={breathe2} className="zoom" alt="thumbnail" width="100%" /></a>
-                        <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Breathe Bricks 2.0</h2></a>
+                        <a href="https://arxiv.org/abs/2503.06769" target="_blank" rel="noreferrer"><img src={breathe2} className="zoom" alt="thumbnail" width="100%" /></a>
+                        <a href="https://arxiv.org/abs/2503.06769" target="_blank" rel="noreferrer"><h2>Breathe Bricks 2.0</h2></a>
                         <p>This paper proposes an innovative solution to the growing issue of greenhouse gas emissions: a closed photobioreactor (PBR) façade system to mitigate greenhouse gas (GHG) concentrations.</p>
                 </div>
             </div>
