@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.be9875e9.css",
-    "main.js": "/static/js/main.a66d2f63.js",
+    "main.js": "/static/js/main.4ce030ec.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
-    "static/media/mvm.pdf": "/static/media/mvm.e1b20996ca6e4f43becd.pdf",
-    "static/media/brick.pdf": "/static/media/brick.a073a4a55fdd5c92ea74.pdf",
+    "static/media/brick.pdf": "/static/media/brick.3f0c23f4b5405922cc10.pdf",
+    "static/media/mvm.pdf": "/static/media/mvm.083519243aa8ce0e8dcb.pdf",
     "static/media/covid.pdf": "/static/media/covid.aadefbe9b65e456f2bd0.pdf",
     "static/media/covid.png": "/static/media/covid.e288b19e690ee3edbf4a.png",
-    "static/media/theater.pdf": "/static/media/theater.5f438bbe7896a7bd57e6.pdf",
+    "static/media/clay.png": "/static/media/clay.e9337e502d5e5ada69dc.png",
+    "static/media/theater.pdf": "/static/media/theater.e4aa6a8f2bfe6e4edb5f.pdf",
+    "static/media/city_forest.pdf": "/static/media/city_forest.cdfcfa718e75a138050b.pdf",
+    "static/media/breathe.pdf": "/static/media/breathe.0d34c0cc76d5b69bc4f7.pdf",
     "static/media/maze.pdf": "/static/media/maze.4d70aa7bf8728b600cae.pdf",
+    "static/media/clay.pdf": "/static/media/clay.d1b2ef50b4c66b39401d.pdf",
     "static/media/brick.png": "/static/media/brick.610bf895231a4fd54119.png",
-    "static/media/city_forest.pdf": "/static/media/city_forest.2ab1476f4470e4dafbb3.pdf",
     "static/media/theater.png": "/static/media/theater.67af6c882ae0ed059169.png",
     "static/media/city_forest.png": "/static/media/city_forest.0e64fb6616b385fb91ff.png",
     "static/media/breathe2.png": "/static/media/breathe2.b8e9ac95fa20e2ba1e65.png",
@@ -19,15 +22,15 @@
     "static/media/maze.png": "/static/media/maze.68a08b6c836ccd26ba33.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.d284dd04d3c1309ee8e7.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/avatar.png": "/static/media/avatar.e4183c6846a825869860.png",
+    "static/media/avatar.png": "/static/media/avatar.27a76e8613ab863fa2fa.png",
     "static/media/resume.pdf": "/static/media/resume.b8c1b5c8bb682d7fc0d2.pdf",
     "index.html": "/index.html",
     "main.be9875e9.css.map": "/static/css/main.be9875e9.css.map",
-    "main.a66d2f63.js.map": "/static/js/main.a66d2f63.js.map",
+    "main.4ce030ec.js.map": "/static/js/main.4ce030ec.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be9875e9.css",
-    "static/js/main.a66d2f63.js"
+    "static/js/main.4ce030ec.js"
   ]
 }
