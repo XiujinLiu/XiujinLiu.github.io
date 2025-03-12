@@ -11,6 +11,8 @@ import covidpdf from '../assets/pdfs/covid.pdf';
 import brickpdf from '../assets/pdfs/brick.pdf';
 import theaterpdf from '../assets/pdfs/theater.pdf';
 import mvmpdf from '../assets/pdfs/mvm.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faVideo} from "@fortawesome/free-solid-svg-icons";
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -33,6 +35,7 @@ according to graviy.</p>
                 <div className="project">
                     <a href={brickpdf} target="_blank" rel="noreferrer"><img src={brick} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href={brickpdf} target="_blank" rel="noreferrer"><h2>Plants Yard & Bricks Nursery</h2></a>
+                    <a href="https://youtu.be/a-73ny_2YzI" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faVideo}/></a>
                     <p>In this project, I try to explore two life cycles: bricks life cycle and plants life cycle. The soil is the link between them: bricks are made of clay and return back to soil, plants need soil to support their life.
                     </p>
                 </div>
