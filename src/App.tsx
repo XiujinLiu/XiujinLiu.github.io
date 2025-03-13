@@ -6,6 +6,7 @@ import {
   Rob,
   Arch,
   Print,
+  Struct,
   Contact,
   Navigation,
   Footer,
@@ -35,9 +36,10 @@ function App() {
             <Main/>
             <Expertise/>
             {/* <Timeline/> */}
-            {/* <Rob/> */}
+            <Rob/>
             <Arch/>
             <Print/>
+            <Struct/>
             {/* <Contact/> */}
         </FadeIn>
         <Footer />

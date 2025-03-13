@@ -6,4 +6,5 @@ export { default as Timeline } from "./Timeline";
 export { default as Rob } from "./Rob";
 export { default as Arch } from "./Arch";
 export { default as Print } from "./Print";
+export { default as Struct } from "./Struct";
 export { default as Contact } from "./Contact";

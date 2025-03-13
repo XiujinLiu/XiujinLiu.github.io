@@ -22,6 +22,7 @@ const navItems = [
   ['Robotics', 'robotics'], 
   ['Architecture', 'arch'], 
   ['3D Printing', 'print'], 
+  ['Structure/Construction', 'struct'], 
   // ['Contact', 'contact']
 ];
 

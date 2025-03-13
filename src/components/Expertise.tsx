@@ -2,44 +2,43 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
-import { faRobot, faBuildingColumns } from "@fortawesome/free-solid-svg-icons";
+import { faRobot, faBuildingColumns, faTrowelBricks } from "@fortawesome/free-solid-svg-icons";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "C++",
+    "PyTorch",
+    "CUDA",
+    "Data Structure",
+    "SLAM"
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
+    "Docker",,
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "ROS",
+    "Matlab"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Adobe Suit",
+    "Enscape",
+    "Microsoft Office Suite",
+    "Rhino",
+    "Grasshopper",
+    "Processing"
+];
+
+const labelsForth = [
+    "AutoCAD",
+    "Revit",
+    "Abaqus",
+    "PKPM",
+    "3D3S"
 ];
 
 function Expertise() {
@@ -51,38 +50,58 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Robot Perception/3D Vision</h3>
-                    {/* <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. 
-                        I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I have developed several 3D vision and robotic perception projects leveraging modern deep learning technologies, including 
+                        Gaussian Splatting, NeRF, Scene Flow, and 6D Pose Estimation. Additionally, I built a vectorized mesh rendering engine from 
+                        scratch using PyTorch.
+                    </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div> */}
+                    </div>
                 </div>
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faRobot} size="3x"/>
                     <h3>Robot Arm</h3>
-                    {/* <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>
+                    I have contributed to projects integrating robotic arms with computer vision and active perception. Additionally, I have been involved
+                     in projects related to robotic arm-based printing, where I explored various printing technologies and materials to produce different
+                     building components.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div> */}
+                    </div>
                 </div>
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faBuildingColumns} size="3x"/>
-                    <h3>Architectural Design</h3>
-                    {/* <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Architecture</h3>
+                    <p>I have professional experience in architectural designing. My primary research focuses on the functions, boundaries, and integration of public and 
+                        private spaces in various contexts.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div> */}
+                    </div>
+                </div>
+
+                <div className="skill">
+                    <FontAwesomeIcon icon={faTrowelBricks} size="3x"/>
+                    <h3>Structure/Construction</h3>
+                    <p>With a Bachelor's degree in Civil Engineering, I have gained extensive experience in structural design and construction, including steel structures, 
+                        reinforced concrete structures, wooden structures, and large-span structures.
+                    </p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsForth.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
