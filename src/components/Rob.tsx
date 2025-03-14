@@ -4,6 +4,7 @@ import render from '../assets/images/rob/render.png';
 import sym from '../assets/images/rob/sym.png';
 import arnet from '../assets/images/rob/arnet.png';
 import search from '../assets/images/rob/search.png';
+import byte from '../assets/images/rob/byte.png';
 import uaspdf from '../assets/pdfs/uas.pdf';
 import sympdf from '../assets/pdfs/sym.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -54,11 +55,17 @@ function Project() {
 
                 <div className="project">
                         <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><img src={search} className="zoom" alt="thumbnail" width="100%" /></a>
-                        <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><h2> Binary Tree Based Search Engine</h2></a>
+                        <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><h2> Search Engine</h2></a>
                         <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode}/></a>
-                        <p>  This project start asking users if they have specific name or imdbid for the video they want to search, if no, the system will begin to guess and recommend by asking users some 
-                            questions and give some options for checking the information. Then the system will ask users if they like the recommendations, if the users like, the system will cache into the json, 
-                            if users don't like, the system will ask what keyword users like and the different between this one and the last one, then save the question tree into another json. </p>
+                        <p>  This is a binary tree based search Engin. This project will guess users favorate movies based on their answers, if the users are not satisfied, 
+                            the engine will update and adjust to match with users.
+                        </p>
+                </div>
+                <div className="project">
+                        <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><img src={byte} className="zoom" alt="thumbnail" width="100%" /></a>
+                        <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><h2> Multi-ByteTrack</h2></a>
+                        <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode}/></a>
+                        <p>  This is a revised version of ByteTrack-CPP-ncnn. The main functionality revision is to change ByteTrack from single-class detection to multi_class detection. </p>
                 </div>
             </div>
         </div>
