@@ -7,6 +7,7 @@ import search from '../assets/images/rob/search.png';
 import byte from '../assets/images/rob/byte.png';
 import uaspdf from '../assets/pdfs/uas.pdf';
 import sympdf from '../assets/pdfs/sym.pdf';
+import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCode, faVideo} from "@fortawesome/free-solid-svg-icons";
 import '../assets/styles/Project.scss';
@@ -55,6 +56,7 @@ function Project() {
 
                 <div className="project">
                         <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><img src={search} className="zoom" alt="thumbnail" width="100%" /></a>
+                        <a href="https://www.pinterest.com/pin/128493395617321118/" target="_blank" rel="noreferrer"><h6>Cover Image Reference Link</h6></a>
                         <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><h2> Search Engine</h2></a>
                         <a href="https://github.com/XiujinLiu/si507" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode}/></a>
                         <p>  This is a binary tree based search Engin. This project will guess users favorate movies based on their answers, if the users are not satisfied, 
@@ -63,8 +65,10 @@ function Project() {
                 </div>
                 <div className="project">
                         <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><img src={byte} className="zoom" alt="thumbnail" width="100%" /></a>
+                        <a href="https://www.pinterest.com/pin/468867011209363258/" target="_blank" rel="noreferrer"><h6>Cover Image Link</h6></a>
                         <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><h2> Multi-ByteTrack</h2></a>
-                        <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode}/></a>
+                        <a href="https://github.com/XiujinLiu/multi-ByteTrack" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode}/></a>  &nbsp;
+                        <a href="https://youtu.be/fNEqtkqPNXA" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faVideo}/></a>
                         <p>  This is a revised version of ByteTrack-CPP-ncnn. The main functionality revision is to change ByteTrack from single-class detection to multi_class detection. </p>
                 </div>
             </div>
